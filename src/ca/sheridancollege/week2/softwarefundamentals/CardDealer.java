@@ -19,6 +19,9 @@ public class CardDealer
         Card aceHearts = new Card("hrts", 1);
         aceHearts.setSuit("Hearts");
         
-        System.out.println("Suit: "+aceHearts.getSuit() +" Value: "+ aceHearts.getValue());
+        System.out.println("Suit: "+aceHearts.getSuit() +" Value: "+ aceHearts.getValue());.
+        
+        Card twoDiamonds = new Card("Dmnds",2);
+        twoDiamonds.setSuit("Diamonds");
     }
 }
